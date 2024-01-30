@@ -2,7 +2,12 @@ package com.dgprojects.project.services;
 
 import com.dgprojects.project.entities.User;
 import com.dgprojects.project.repositories.UserRepository;
+import com.dgprojects.project.services.exceptions.DatabaseException;
+import com.dgprojects.project.services.exceptions.ResourceNotFoundException;
+import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
