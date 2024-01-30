@@ -1,10 +1,15 @@
 package com.dgprojects.project.config;
 
-import com.dgprojects.project.repositories.UserRepository;
+import com.dgprojects.project.entities.*;
+import com.dgprojects.project.entities.enums.OrderStatus;
+import com.dgprojects.project.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
+
+import java.time.Instant;
+import java.util.Arrays;
 
 @Configuration
 @Profile("test")

@@ -1,6 +1,7 @@
 package com.dgprojects.project.resources;
 
 import com.dgprojects.project.entities.Category;
+import com.dgprojects.project.services.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

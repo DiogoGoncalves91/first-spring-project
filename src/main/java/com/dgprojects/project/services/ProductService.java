@@ -1,6 +1,7 @@
 package com.dgprojects.project.services;
 
 import com.dgprojects.project.entities.Product;
+import com.dgprojects.project.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
